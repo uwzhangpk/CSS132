@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <assert.h>
 
-/* Write 3 functons
+/* Write 3 functions
  * sum2, diff2 and product2
  * to make the following program work.
  *
