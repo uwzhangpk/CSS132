@@ -27,8 +27,8 @@ void arrow(int size)
 
 int main()
 {
-   int i = 9;
-   arrow(i);
+   arrow(9);
+   arrow(15);
+   arrow(31);
    return 0;
 }
-
