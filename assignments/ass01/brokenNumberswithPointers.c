@@ -12,10 +12,10 @@
 
 void compareNumbers ()
 {
-    int * ff;
-    ff = &firstNum;
     int firstNum = 5;
     int secondNum = 2;
+    int * ff;
+    ff = &firstNum;
     int dif;
     int sum = sum2(ff, secondNum);
     diff2(ff, &secondNum, &dif);
