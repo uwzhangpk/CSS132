@@ -14,9 +14,9 @@ void printAnIntPointer(int * var_ptr)
 
 int main()
 {
-    // i is an integer
+    // i is an integer, the DataType is an integer
     int i;
-    // x_ptr is a pointer to an integer
+    // x_ptr is a pointer to an integer, the DataType is a pointer
     // x_ptr will get a memory address that will point to an integer
     int * x_ptr;
     // x_ptr now has the memory address of i
