@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1507245454 source:/Volumes/udrive/courses/css132/Week2ClassExercise1/main.c
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+
