@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1507257186 source:u:\courses\css132\bitbucket\classexercises\week02\largest\main.c
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+

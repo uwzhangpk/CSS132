@@ -28,8 +28,8 @@ int main()
     printf("Value of i is %d\n", i);
     printf("Value pointed by x_ptr is %d\n", *x_ptr);
     // we can also print the memory addresses
-    printf("Memory adddress of i is %p\n", &i);
-    printf("Value of x_ptr which is a memory adddress is %p\n", x_ptr);
+    printf("Memory address of i is %p\n", &i);
+    printf("Value of x_ptr which is a memory address is %p\n", x_ptr);
     // i and *x_ptr are interchangable when we are using them
     i = i + *x_ptr;
     // both i and *x_ptr are now 20.
