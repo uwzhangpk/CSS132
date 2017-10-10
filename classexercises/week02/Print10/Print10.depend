@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1507259724 source:u:\courses\css132\bitbucket\classexercises\week02\print10\printloop10.c
+	<stdio.h>
+	<stdlib.h>
+
