@@ -93,8 +93,8 @@ int multipleof3and7BeforeN(int n)
     for(int i = 0; i < n; i++)
     {
         if (multipleof3(i) &&
-            multipleof7(i) &&
-            (i > largest))
+                multipleof7(i) &&
+                (i > largest))
             largest = i;
     }
     return largest;
@@ -115,6 +115,40 @@ void infiniteForLoop()
 
     }
 }
+
+int oddNumbersBetweenv1(int m, int n)
+{
+    if (isOdd(m))
+        for (int i = m; i < n ; i +=2)
+            printf("%d ", i);
+    else
+        for (int i = m + 1 ; i < n ; i +=2)
+            printf("%d ", i);
+    // assume success
+    return 0;
+}
+
+int oddNumbersBetween(int m, int n)
+{
+    for (int i = m + 1; i < n; i++)
+        if (isOdd(i))
+            printf("%d ", i);
+    // assume success
+    return 0;
+}
+
+void stars(int n)
+{
+   for (int i = 0; i < n; i++)
+   {
+      for (int j = 0; j <= i; j++)
+      {
+         printf("*");
+      }
+      printf("\n");
+   }
+}
+
 int main()
 {
 
@@ -125,6 +159,9 @@ int main()
            largestOddBeforeN(10));
     printf("multipleof3and7BeforeN returns %d\n",
            multipleof3and7BeforeN(10));
+    int success = oddNumbersBetween(6, 50);
+    printf("\n");
+    stars(5);
     printf("Hello world!\n");
     return 0;
 }
