@@ -1,12 +1,10 @@
-Enter a line (use stop to end): a puzzle
-a: 1
+Enter a line (use stop to end): a: 1
 e: 1
 l: 1
 p: 1
 u: 1
 z: 2
-Enter a line (use stop to end): ignoring capitals like RRRRR and spaces
-a: 5
+Enter a line (use stop to end): a: 5
 c: 2
 d: 1
 e: 3
@@ -22,4 +20,4 @@ s: 3
 t: 1
 u: 1
 z: 2
-Enter a line (use stop to end): stop
+Enter a line (use stop to end): 
