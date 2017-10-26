@@ -11,6 +11,16 @@ void printBoard(char * ticBoard)
 
 }
 
+bool hasEmpty(char * ticBoard)
+{
+    for (int i = 0; i < 9; i++)
+    {
+        if (ticBoard[i] == '.')
+            return true;
+    }
+    return false;
+}
+
 bool winnerCheck(char * ticBoard, char p)
 {
     return (
@@ -87,19 +97,20 @@ void playTicTacToe()
                    };
     printf("Welcome to TicTacToe\n");
     printBoard(board);
-    bool gameOn = true;
+    bool haveWinner = false;
+    bool userTurn = true;
     int turn = 1;
-    while (gameOn)
+    while (hasEmpty(board) &&  !haveWinner)
     {
         printf("Turn #%d\n", turn);
-        if (turn % 2 == 1)
+        if (userTurn)
         {
             playUserWithPrompt(board);
             printBoard(board);
             if (userWin(board))
             {
                 printf("You win!!!\n");
-                gameOn = false;
+                haveWinner = true;
             }
         }
         else
@@ -109,16 +120,14 @@ void playTicTacToe()
             if (computerWin(board))
             {
                 printf("You lose!!!\n");
-                gameOn = false;
+                haveWinner = false;
             }
         }
         turn++;
-        if (turn > 9)
-        {
-            printf("We have a draw\n");
-            gameOn = false;
-        }
+        userTurn = !userTurn;
     }
+    if (! hasEmpty(board))
+        printf("We have a draw!\n");
     printf("Thank you for playing\n");
 }
 
