@@ -84,6 +84,7 @@ void playUserWithPrompt(char * ticBoard)
         if (numberOfItemsRead != 1)
             flushLine();
         printf("Invalid input\n");
+
         printf("Enter play (0-8): ");
         numberOfItemsRead = scanf("%d", &userInput);
     }
