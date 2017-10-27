@@ -121,7 +121,7 @@ void playTicTacToe()
             if (computerWin(board))
             {
                 printf("You lose!!!\n");
-                haveWinner = false;
+                haveWinner = true;
             }
         }
         turn++;

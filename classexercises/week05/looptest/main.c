@@ -13,7 +13,7 @@ int arrayStats(int * arr, int length)
     total = 0;
     for(int i = 0; i < length; i++)
     {
-        printf("%d\n", arr[i]);
+        //printf("%d\n", arr[i]);
         if (arr[i] > max)
             max = arr[i];
         if (arr[i] < min)
