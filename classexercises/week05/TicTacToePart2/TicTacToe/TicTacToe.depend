@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1509036135 source:/Users/pisan/bitbucket/css132/classexercises/week05/TicTacToePart2/TicTacToe/main.c
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+	<stdbool.h>
+
