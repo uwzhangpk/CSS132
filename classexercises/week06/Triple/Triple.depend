@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1509665856 source:/Users/pisan/Downloads/Triple/main.c
+	<stdio.h>
+	<stdlib.h>
+
