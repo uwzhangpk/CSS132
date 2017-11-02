@@ -4,7 +4,7 @@
 #include <string.h>
 
 // prints all the keywords and how many times they were seen in a file
-void printKeyywordStats(char * keywords[], int keywordStats[], int keywordLength)
+void printKeywordStats(char * keywords[], int keywordStats[], int keywordLength)
 {
     // TODO: Print the keywords followed by how many times they appear
 }
@@ -47,6 +47,6 @@ int main(int argc, char * argv[])
         printf("Failed to read file: %s\n", fileToRead);
         return -1;
     }
-    printKeyywordStats(keywords, keywordStats, keywordLength);
+    printKeywordStats(keywords, keywordStats, keywordLength);
     return 0;
 }
