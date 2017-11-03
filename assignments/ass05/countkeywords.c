@@ -45,6 +45,9 @@ int main(int argc, char * argv[])
     if (err == -1)
     {
         printf("Failed to read file: %s\n", fileToRead);
+        printf("Press any key to exit\n");
+        char c;
+        scanf("%c", &c);
         return -1;
     }
     printKeywordStats(keywords, keywordStats, keywordLength);
