@@ -34,7 +34,7 @@ int main(int argc, char * argv[])
     // Find where this file is on your hard drive
     // so you can specify the file to read with the full pathname
     fileWriteTester("myoutput.txt");
-    char * keywords[] = { "void", "int", "double", "char" };
+    char * keywords[] = { "void ", "int ", "double ", "char " };
     int keywordStats[] = { 0, 0, 0, 0 };
     int keywordLength = 4;
     //
@@ -48,5 +48,8 @@ int main(int argc, char * argv[])
         return -1;
     }
     printKeywordStats(keywords, keywordStats, keywordLength);
+    printf("Press any key to exit\n");
+    char c;
+    scanf("%c", &c);
     return 0;
 }
