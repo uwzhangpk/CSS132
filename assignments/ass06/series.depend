@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1510257706 source:/Users/pisan/bitbucket/132private/ass6/series/series.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
