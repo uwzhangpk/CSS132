@@ -18,8 +18,8 @@ double squareRoot(double number)
 
 // Generate random numbers between 0 and 1000
 // Call squareRoot to calculate using Newton's method
-// Call sqrt to use library from math.h
-// print the numbers found and the difference to 12 decimal points
+// Call sqrt from math.h
+// print the square roots you got and their difference to 12 decimal places
 void squareRootTester(int testTimes)
 {
     printf("Testing squareRoot %d times\n", testTimes);
@@ -44,7 +44,7 @@ double sumOfGeometricSeries(int sequenceLength)
 
 // Calculates the infinite series using sumOfGeometricSeries
 // Tries out sequenceLength from 1 to 10
-// print the numbers found and the difference to 1.0/3.0 to 12 decimal points
+// print the result returned from sumOfGeometricSeries and the difference to 1.0/3.0 to 12 decimal places
 void sumOfGeometricSeriesTester()
 {
     printf("Testing sumOfGeometricSeries\n");
