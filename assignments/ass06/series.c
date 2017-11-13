@@ -4,6 +4,7 @@
 
 // approximate square root of a number using Newton's method
 // https://en.wikipedia.org/wiki/Newton%27s_method
+// LOOKUP EXAMPLE for 612 on above URL
 // try finding sqare root of 612 (as in above URL)
 // first guess is always 10
 // for 612, x0 is 10, x1 is 35.6, x2 is 26.3, x3 is 24.79, ...
